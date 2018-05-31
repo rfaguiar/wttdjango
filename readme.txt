@@ -19,6 +19,7 @@ manage runserver
 
 manage startapp core
 
-
-
+regex para concertar links css e js:
+(src|href)="((img|css|js).*?)"
+$1="{% static '$2' %}"
 
