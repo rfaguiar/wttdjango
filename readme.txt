@@ -23,3 +23,13 @@ regex para concertar links css e js:
 (src|href)="((img|css|js).*?)"
 $1="{% static '$2' %}"
 
+pip install python-decouple
+pip install dj-database-url
+pip install dj-static
+
+pip freeze > requirements.txt
+
+# adicionado ao requirements:
+gunicorn==19.8.1
+psycopg2==2.7.4
+

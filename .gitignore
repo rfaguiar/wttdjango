@@ -103,6 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+.wttd
+*.sqlite3
+*pyc
+
 #intellij
 .idea/
 .idea
