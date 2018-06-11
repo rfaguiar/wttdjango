@@ -1,0 +1,19 @@
+# mypy
+.mypy_cache/
+
+.wttd
+*.sqlite3
+*pyc
+
+#intellij
+.idea/
+.idea
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
