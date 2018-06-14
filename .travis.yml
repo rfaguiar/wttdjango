@@ -12,7 +12,7 @@ python:
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
   - ls
-  - SECRET_KEY=s$_x=1bihmpn2^!jfk_i*^9n8+d_fp&k#@a!&nmy2=5^#dw4b(
+  - SECRET_KEY=adfqwert
   - DEBUG=True
   - python manage.py test
 
