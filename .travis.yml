@@ -11,9 +11,9 @@ python:
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
-  - ls
-  - SECRET_KEY=adfqwert
+  - SECRET_KEY=runtests
   - DEBUG=True
+  - ALLOWED_HOSTS=127.0.0.1, .localhost
   - python manage.py test
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
